@@ -18,6 +18,7 @@ export const CardItem = () => {
   const handInc = () => {
     dispatch(incCounter)
   }
+
   return (
     <div>
       <div className="container">
@@ -29,23 +30,28 @@ export const CardItem = () => {
           <div className=" container-img">
             <img
               className="img-m"
-              src="../png/image.png"
+              src="./png/image.png"
               alt="Majdan Nezaleznosti"
             />
           </div>
           <div className="i-count">
             <div className="container-bed ">
-              <img className="img-b" src="../png/Vector2.png" alt="2bed"></img>
+              <img
+                id="imgBed"
+                className="img-b"
+                src="../png/Vector2.png"
+                alt="2bed"
+              ></img>
 
               <div className="i-b-2">
                 <img
                   className="img-b2"
-                  src="../png/Vector2.png"
+                  src="./png/Vector2.png"
                   alt="2bed"
                 ></img>
                 <img
                   className="img-b2"
-                  src="../png/Vector2.png"
+                  src="./png/Vector2.png"
                   alt="2bed"
                 ></img>
               </div>
@@ -53,7 +59,7 @@ export const CardItem = () => {
                 {' '}
                 <img
                   className="img-b1"
-                  src="../png/Vector.png"
+                  src="./png/Vector.png"
                   alt="one-bed"
                 ></img>
               </div>
@@ -93,8 +99,6 @@ export const CardItem = () => {
           </a>
         </div>
       </div>
-      <button onClick={handInc}>inc</button>
-      <button onClick={handDec}>dec</button>
     </div>
   )
 }
