@@ -1,31 +1,27 @@
 /* eslint-disable no-unused-vars */
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react'
+
 import { CardItem } from './components/card-item'
 
 function App() {
+  // const counter = useSelector(({ counter: { counter } }) => counter)
+  // console.log(counter)
+
+  // const dispatch = useDispatch()
+
+  // const handDec = () => {
+  //   dispatch(decCounter)
+  //   console.log(decCounter)
+  // }
+  // const handInc = () => {
+  //   dispatch(incCounter)
+  // }
   return (
-    <div className="App">
-
-<CardItem/>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-
-       
+    <div>
+      <CardItem />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

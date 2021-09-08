@@ -1,0 +1,293 @@
+.container {
+  position: relative;
+  width: 294px;
+  height: 274px;
+  left: 105px;
+  top: 635px;
+
+  background: #ffffff;
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.container-St {
+  display: flex;
+  justify-content: space-around;
+}
+.container-i {
+  display: flex;
+  flex-direction: row;
+}
+.container-img {
+  margin: 10px;
+}
+.container-bed {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.i-b-2 {
+  display: flex;
+  flex-direction: row;
+}
+.i-count {
+  display: flex;
+  flex-direction: row;
+}
+.container-p-count {
+  display: flex;
+  flex-direction: column;
+}
+.div-count {
+  margin: 4px;
+  padding: 1px;
+}
+.container-list {
+  margin: 10px 20px;
+  columns: 2;
+}
+
+.Kiev {
+  /* position: absolute; */
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 46px;
+  height: 27px;
+  /* left: 123px;
+  top: 643px; */
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #0090ff;
+}
+
+.UA {
+  /* position: absolute; */
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 39px;
+  height: 13px;
+  /* left: 280px;
+  top: 654px; */
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+
+  color: #0090ff;
+}
+
+.img-m {
+  /* position: absolute; */
+  width: 144px;
+  height: 88px;
+  left: 123px;
+  top: 694px;
+
+  /* background: url(image.png); */
+  border-radius: 10px;
+}
+.img-b {
+  /* position: absolute; */
+  left: 23.5%;
+  right: 74.75%;
+  top: 16.95%;
+  bottom: 82.64%;
+
+  background: #787878;
+  border: 0.5px solid #787878;
+}
+
+.img-b2L {
+  /* position: absolute; */
+  left: 23.5%;
+  right: 74.75%;
+  top: 17.6%;
+  bottom: 81.99%;
+
+  background: #787878;
+  border: 0.5px solid #787878;
+}
+.img-b2R {
+  /* position: absolute; */
+  left: 25.58%;
+  right: 72.67%;
+  top: 17.6%;
+  bottom: 81.99%;
+
+  background: #787878;
+  border: 0.5px solid #787878;
+}
+
+.img-b1 {
+  /* position: absolute; */
+  left: 23.42%;
+  right: 75.17%;
+  top: 18.28%;
+  bottom: 81.36%;
+
+  background: #787878;
+  border: 0.5px solid #787878;
+}
+
+.Gos {
+  /* position: absolute; */
+  width: 228px;
+  height: 27px;
+  left: 123px;
+  top: 803px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* identical to box height, or 10px */
+
+  display: flex;
+  align-items: center;
+  color: #656565;
+}
+
+.Hos {
+  /* position: absolute; */
+  width: 219px;
+  height: 27px;
+  left: 123px;
+  top: 823px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* identical to box height, or 10px */
+
+  display: flex;
+  align-items: center;
+
+  color: #656565;
+}
+.Kom-P {
+  /* position: absolute; */
+  width: 107px;
+  height: 27px;
+  left: 123px;
+  top: 835px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* or 10px */
+
+  display: flex;
+  align-items: center;
+
+  color: #656565;
+}
+.K-ot {
+  /* position: absolute; */
+  width: 107px;
+  height: 27px;
+  left: 123px;
+  top: 857px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* or 10px */
+
+  display: flex;
+  align-items: center;
+
+  color: #656565;
+}
+.Kv-P {
+  /* position: absolute; */
+  width: 250px;
+  height: 27px;
+  left: 281px;
+  top: 795px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* or 10px */
+
+  display: flex;
+  align-items: center;
+
+  color: #656565;
+}
+.D-P {
+  /* position: absolute; */
+  width: 250px;
+  height: 27px;
+  left: 282px;
+  top: 815px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* or 10px */
+
+  display: flex;
+  align-items: center;
+
+  color: #656565;
+}
+.D-O {
+  /* position: absolute; */
+  width: 113px;
+  height: 27px;
+  left: 282px;
+  top: 835px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* or 10px */
+
+  display: flex;
+  align-items: center;
+
+  color: #656565;
+}
+.All-v {
+  /* position: absolute; */
+  width: 102px;
+  height: 27px;
+  left: 281px;
+  top: 857px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 104.01%;
+  /* or 10px */
+
+  display: flex;
+  align-items: center;
+
+  color: #656565;
+}
