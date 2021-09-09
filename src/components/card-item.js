@@ -7,7 +7,6 @@ import { decCounter, incCounter } from '../redux/action-creators'
 
 export const CardItem = () => {
   const counter = useSelector(({ counter }) => counter)
-  console.log(counter)
 
   const dispatch = useDispatch()
 
@@ -16,17 +15,16 @@ export const CardItem = () => {
   }
   const handDec = () => {
     dispatch(decCounter)
-    // console.log(decCounter)
   }
   useEffect(() => {
     const addBed = document.getElementsByClassName('img-b')[0]
 
-    addBed.addEventListener('click', function () {
+    addBed.addEventListener('click', () => {
       handInc()
       console.log('click')
       addBed.style.color = 'red'
     })
-    addBed.addEventListener('dblclick', function () {
+    addBed.addEventListener('dblclick', () => {
       handDec()
       console.log('dblclick')
       addBed.style.color = 'blue'
@@ -76,7 +74,7 @@ export const CardItem = () => {
 
         <div className="container-list">
           <a href="q" className="Gos">
-            Гостиницы{' '}
+            Гостиницы
           </a>
           <a href="q" className="Hos">
             Хостелы{' '}
