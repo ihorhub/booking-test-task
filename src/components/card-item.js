@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import './Item.css'
 
@@ -6,18 +6,32 @@ import './Item.css'
 import { decCounter, incCounter } from '../redux/action-creators'
 
 export const CardItem = () => {
-  const counter = useSelector(({ counter: { counter } }) => counter)
+  const counter = useSelector(({ counter }) => counter)
   console.log(counter)
 
   const dispatch = useDispatch()
 
-  const handDec = () => {
-    dispatch(decCounter)
-    console.log(decCounter)
-  }
   const handInc = () => {
     dispatch(incCounter)
   }
+  const handDec = () => {
+    dispatch(decCounter)
+    // console.log(decCounter)
+  }
+  useEffect(() => {
+    const addBed = document.getElementsByClassName('img-b')[0]
+
+    addBed.addEventListener('click', function () {
+      handInc()
+      console.log('click')
+      addBed.style.color = 'red'
+    })
+    addBed.addEventListener('dblclick', function () {
+      handDec()
+      console.log('dblclick')
+      addBed.style.color = 'blue'
+    })
+  }, [])
 
   return (
     <div>
@@ -30,7 +44,7 @@ export const CardItem = () => {
           <div className=" container-img">
             <img
               className="img-m"
-              src="./png/image.png"
+              src=" `./png/image.jpg` "
               alt="Majdan Nezaleznosti"
             />
           </div>
@@ -41,31 +55,19 @@ export const CardItem = () => {
                 className="img-b"
                 src="../png/Vector2.png"
                 alt="2bed"
-              ></img>
+              />
 
               <div className="i-b-2">
-                <img
-                  className="img-b2"
-                  src="./png/Vector2.png"
-                  alt="2bed"
-                ></img>
-                <img
-                  className="img-b2"
-                  src="./png/Vector2.png"
-                  alt="2bed"
-                ></img>
+                <img className="img-b2" src="./png/Vector2.png" alt="2bed" />
+                <img className="img-b2" src="./png/Vector2.png" alt="2bed" />
               </div>
               <div>
                 {' '}
-                <img
-                  className="img-b1"
-                  src="./png/Vector.png"
-                  alt="one-bed"
-                ></img>
+                <img className="img-b1" src="./png/Vector.png" alt="one-bed" />
               </div>
             </div>
             <div className="container-p-count">
-              <div className="div-count">2$</div>
+              <div className="div-count">{counter}</div>
               <div className="div-count">2$</div>
               <div className="div-count">2$</div>
             </div>
