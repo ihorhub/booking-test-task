@@ -1,11 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './List.css'
+import logoR from './icon/VectorR.png'
 
 export const List = () => {
   return (
     <div>
       <div>
+        <div className="Logoclass">
+          <img src={logoR} alt="icon" className="vec" />
+        </div>
         <ul className="cont">
           {' '}
           <li className="dec">

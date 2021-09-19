@@ -1,3 +1,23 @@
+.Logoclass {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vec {
+  width: 15.83px;
+  height: 15.37px;
+
+  background: #fd4304;
+}
+.vec2 {
+  width: 15.83px;
+  height: 15.43px;
+
+  background: #14d8c4;
+  background-blend-mode: darken;
+}
+
 .cont {
   width: 316px;
   height: 453px;
