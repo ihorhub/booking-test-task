@@ -2,13 +2,15 @@
 import React from 'react'
 import './List.css'
 import logoR from './icon/VectorR.png'
+import logoG from './icon/VectorG.png'
 
 export const List = () => {
   return (
     <div>
-      <div>
+      <div className="">
         <div className="Logoclass">
           <img src={logoR} alt="icon" className="vec" />
+          <img src={logoG} alt="icon" className="vec" />
         </div>
         <ul className="cont">
           {' '}
