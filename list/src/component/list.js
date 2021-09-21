@@ -1,99 +1,101 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './List.css'
-import logoR from './icon/VectorR.png'
-import logoG from './icon/VectorG.png'
+import logo from './icon/Group 181.svg'
 
 export const List = () => {
   return (
     <div>
-      <div className="">
-        <div className="Logoclass">
-          <img src={logoR} alt="icon" className="vec" />
-          <img src={logoG} alt="icon" className="vec" />
-        </div>
-        <ul className="cont">
+      <div className="cont">
+        <div className="logo">
           {' '}
-          <li className="dec">
-            <a href="#" className="ssylka" type="text/html">
-              {' '}
-              Сдать квартиру посуточно Киев{' '}
-            </a>
-          </li>{' '}
-          <li className="dec">
-            <a href="#" className="ssylka" type="text/html">
-              {' '}
-              Сдать апартаменты посуточно Киев{' '}
-            </a>
-          </li>{' '}
-          <li className="dec">
-            <a href="#" className="ssylka" type="text/html">
-              {' '}
-              Сдать дом посуточно Киев{' '}
-            </a>
-          </li>{' '}
-          <li className="dec">
-            <a href="#" className="ssylka" type="text/html">
-              {' '}
-              Сдать номер в гостинице Киев{' '}
-            </a>
-          </li>{' '}
-          <li className="dec">
-            <a href="#" className="ssylka" type="text/html">
-              {' '}
-              Сдать номер в отеле Киев{' '}
-            </a>
-          </li>
-          <li className="dec">
+          <img src={logo} alt="{logo}" />
+        </div>
+
+        <div className="list-cont">
+          <ul className="ulca">
             {' '}
-            <a href="#" className="ssylka" type="text/html">
+            <li className="dec">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать квартиру посуточно Киев{' '}
+              </a>
+            </li>{' '}
+            <li className="dec">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать апартаменты посуточно Киев{' '}
+              </a>
+            </li>{' '}
+            <li className="dec">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать дом посуточно Киев{' '}
+              </a>
+            </li>{' '}
+            <li className="dec">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать номер в гостинице Киев{' '}
+              </a>
+            </li>{' '}
+            <li className="dec">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать номер в отеле Киев{' '}
+              </a>
+            </li>
+            <li className="dec">
               {' '}
-              Сдать место в хостеле Киев{' '}
-            </a>
-          </li>
-          <li className="dec">
-            {' '}
-            <a href="#" className="ssylka" type="text/html">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать место в хостеле Киев{' '}
+              </a>
+            </li>
+            <li className="dec">
               {' '}
-              Сдать комнату в квартире посуточно Переяслав - Хмелницкий{' '}
-            </a>
-          </li>
-          <li className="dec">
-            {' '}
-            <a href="#" className="ssylka" type="text/html">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать комнату в квартире посуточно Переяслав - Хмелницкий{' '}
+              </a>
+            </li>
+            <li className="dec">
               {' '}
-              Сдать комнату в доме посуточно Переяслав - Хмелницкий{' '}
-            </a>
-          </li>
-          <li className="dec">
-            {' '}
-            <a href="#" className="ssylka" type="text/html">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать комнату в доме посуточно Переяслав - Хмелницкий{' '}
+              </a>
+            </li>
+            <li className="dec">
               {' '}
-              Сдать номер в Guest House Киев{' '}
-            </a>
-          </li>
-          <li className="dec">
-            {' '}
-            <a href="#" className="ssylka" type="text/html">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать номер в Guest House Киев{' '}
+              </a>
+            </li>
+            <li className="dec">
               {' '}
-              Сдать номер в Capsule Hotel Киев{' '}
-            </a>
-          </li>
-          <li className="dec">
-            {' '}
-            <a href="#" className="ssylka" type="text/html">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать номер в Capsule Hotel Киев{' '}
+              </a>
+            </li>
+            <li className="dec">
               {' '}
-              Сдать номер в мотеле Киев{' '}
-            </a>
-          </li>
-          <li className="dec">
-            {' '}
-            <a href="#" className="ssylka" type="text/html">
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать номер в мотеле Киев{' '}
+              </a>
+            </li>
+            <li className="dec">
               {' '}
-              Сдать жилье посуточно Киев{' '}
-            </a>
-          </li>
-        </ul>
+              <a href="#" className="ssylka" type="text/html">
+                {' '}
+                Сдать жилье посуточно Киев{' '}
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   )

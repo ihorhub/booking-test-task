@@ -1,21 +1,6 @@
-.Logoclass {
-  display: flex;
+.logo {
+  margin: 18px 0px 0px 22px;
 }
-.vec {
-  width: 15.83px;
-  height: 15.37px;
-  background: #fd4304;
-  overflow: hidden;
-}
-.vec2 {
-  width: 15.83px;
-  height: 15.43px;
-
-  background: #14d8c4;
-  overflow: hidden;
-  /* background-blend-mode: darken; */
-}
-
 .cont {
   width: 316px;
   height: 453px;
@@ -25,18 +10,21 @@
   box-sizing: border-box;
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
-}
-.ulka {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
   flex-direction: row;
 }
+.list-cont {
+  display: flex;
+  flex-direction: column;
+}
+.ulca {
+  padding: 0px 0px 0px 0px;
+}
 .dec {
-  margin: auto;
+  margin: 8px 28px 0px 3px;
 }
 .ssylka {
+  margin: 0px 5px;
+  padding: 0px 7px;
   text-align: left;
 }
 
@@ -55,9 +43,6 @@ a {
   display: flex;
   justify-content: start;
   align-items: center;
-  width: 240px;
-  height: 29px;
-  color: #656565;
 }
 a:link {
   font-weight: 600;
@@ -68,13 +53,14 @@ a:visited {
   color: #656565;
 }
 
-a:hover {
+li a:hover {
   width: 250px;
   font-weight: bold;
   color: #0090ff;
 
   text-decoration: underline;
   border-radius: 10px;
+  width: 240px;
   height: 29px;
   background-color: #e5e5e5;
 }
