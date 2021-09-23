@@ -1,0 +1,80 @@
+$color_1: #656565;
+$color_hover: #0090ff;
+$color_active: #006bbe;
+$color_4: #656565;
+
+.cont {
+  width: 316px;
+  height: 453px;
+  margin: 100px 300px;
+  background: #ffffff;
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  margin: 18px 0px 0px 22px;
+}
+
+.list-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-bl {
+  padding: 0px;
+}
+
+.list-dec {
+  margin: 6px 28px 0px 3px;
+}
+
+li {
+  list-style-type: none;
+  width: 240px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  &:hover {
+    border-radius: 10px;
+    width: 240px;
+    height: 29px;
+    background-color: #e5e5e5;
+  }
+}
+
+.link {
+  text-align: left;
+  width: 240px;
+  line-height: 11px;
+  margin: 0px 5px;
+  padding: 0px 7px;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  &:link {
+    font-weight: 600;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 11px;
+    color: $color_1;
+  }
+  &:visited {
+    font-weight: 900;
+    color: $color_1;
+  }
+  &:hover {
+    font-weight: bold;
+    color: $color_hover;
+    text-decoration: underline;
+  }
+  &:active {
+    font-weight: bold;
+    color: $color_active;
+  }
+}
